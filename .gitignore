@@ -1,43 +1,95 @@
-#--------------------------#
-# Magento Default Files    #
-#--------------------------#
 
-/app/etc/local.xml
+# Created by https://www.gitignore.io/api/linux,matlab,octave,windows
+# Edit at https://www.gitignore.io/?templates=linux,matlab,octave,windows
 
-/media/*
-!/media/.htaccess
+### Linux ###
+*~
 
-!/media/customer
-/media/customer/*
-!/media/customer/.htaccess
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
 
-!/media/dhl
-/media/dhl/*
-!/media/dhl/logo.jpg
+# KDE directory preferences
+.directory
 
-!/media/downloadable
-/media/downloadable/*
-!/media/downloadable/.htaccess
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
 
-!/media/xmlconnect
-/media/xmlconnect/*
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
-!/media/xmlconnect/custom
-/media/xmlconnect/custom/*
-!/media/xmlconnect/custom/ok.gif
+### MATLAB ###
+# Windows default autosave extension
+*.asv
 
-!/media/xmlconnect/original
-/media/xmlconnect/original/*
-!/media/xmlconnect/original/ok.gif
+# OSX / *nix default autosave extension
+*.m~
 
-!/media/xmlconnect/system
-/media/xmlconnect/system/*
-!/media/xmlconnect/system/ok.gif
+# Compiled MEX binaries (all platforms)
+*.mex*
 
-/var/*
-!/var/.htaccess
+# Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
 
-!/var/package
-/var/package/*
-!/var/package/*.xml
+# Generated helpsearch folders
+helpsearch*/
 
+# Simulink code generation folders
+slprj/
+sccprj/
+
+# Matlab code generation folders
+codegen/
+
+# Simulink autosave extension
+*.autosave
+
+# Octave session info
+octave-workspace
+
+### Octave ###
+# Windows default autosave extension
+
+# OSX / *nix default autosave extension
+
+# Compiled MEX binaries (all platforms)
+
+# Packaged app and toolbox files
+
+# Generated helpsearch folders
+
+# Simulink code generation folders
+
+# Matlab code generation folders
+
+# Simulink autosave extension
+
+# Octave session info
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/linux,matlab,octave,windows
